@@ -13,7 +13,7 @@
 ## Technologies Used
 
 ## Wireframe 
-![alt text] (./Wireframe.png)
+![alt text] (./Wireframe.png){: height = "50%"}
 
 ## ERD
 ![alt text] (./ERD.png)
