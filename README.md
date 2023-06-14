@@ -13,7 +13,7 @@
 ## Technologies Used
 
 ## Wireframe & ERD
-[Click here] (https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdLxQgPL9yAOAeGg3RchEQt%2FPublic-Space-NYC-Wireframes%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Ddq4nFh45HVkyAM0a-1)
+[Click here](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdLxQgPL9yAOAeGg3RchEQt%2FPublic-Space-NYC-Wireframes%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Ddq4nFh45HVkyAM0a-1)
 
 ## Project Management 
 
