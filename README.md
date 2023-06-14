@@ -13,8 +13,10 @@
 ## Technologies Used
 
 ## Wireframe 
+![alt text] (./Wireframe.png)
 
 ## ERD
+![alt text] (./ERD.png)
 
 ## Project Management 
 
