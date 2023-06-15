@@ -31,6 +31,10 @@ app.get('/', (req, res) => {
 
 app.use('/api/myparks', parkRouter);
 
+app.get('/*', (req, res) => {
+    res.status(404).json({message: 'not found'})
+});
+
 // Tell the App to Listen
 app.listen(PORT, () => {
     console.log(`Express is listening on port: ${PORT}`);
