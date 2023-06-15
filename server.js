@@ -17,7 +17,7 @@ mongoose.connect(DATABASE_URL);
 mongoose.connection
 .on('open', () => console.log('Connected to MongoDB'))
 .on('close', () => console.log('Disconnected to MongoDB'))
-.on('error', () => console.log(`MongoDB Error: ${error.message}`));
+.on('error', (error) => console.log(`MongoDB Error: ${ error.message }`));
 
 // Mount Middleware
 app.use(express.json());
