@@ -3,7 +3,9 @@ const Schema = mongoose.Schema;
 
 const parkSchema = new Schema ({
     parkName: String,
-    parkPhoto: String,
+    parkActive: Boolean,
+    parkType: String,
+    parkLocation: String,
     parkLink: String
 }, {timestamps: true });
 
