@@ -6,7 +6,8 @@ const parkSchema = new Schema ({
     parkActive: Boolean,
     parkType: String,
     parkLocation: String,
-    parkLink: String
+    parkLink: String,
+    createdBy: String
 }, {timestamps: true });
 
 module.exports = mongoose.model('Park', parkSchema);

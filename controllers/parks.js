@@ -4,7 +4,7 @@ const router = require('express').Router();
 // Index
 router.get('/', async (req, res) => {
     try {
-        res.status(200).json(await Park.find({}));
+        res.status(200).json(await Park.find({createdBy: req.user.uid}));
     } catch(error) {
         res.status(400).json({ message: 'bad request'});
     } 
@@ -12,6 +12,8 @@ router.get('/', async (req, res) => {
 
 // Create 
 router.post('/', async (req, res) => {
+
+    req.body.createdBy = req.user.uid;
     try{
         res.status(201).json(await Park.create(req.body));
     } catch(error) {
